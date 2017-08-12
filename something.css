@@ -3,7 +3,7 @@
 
 html, body {
   font-size: 10px;
-  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-family: Roboto, sans-serif;
   line-height: 150%; }
 
 div {
@@ -17,3 +17,19 @@ canvas {
   right: 0;
   left: 0;
   bottom: 0; }
+
+h1 {
+  font-size: 56px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center; }
+
+h2 {
+  font-size: 42px;
+  font-family: 'Roboto Slab', serif;
+  text-align: center; }
+h3 {
+  font-size: 72px;
+  font-family: 'Roboto Mono',monospace;
+  text-align: center;
+  color: 'Gray';
+}
