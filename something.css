@@ -1,15 +1,15 @@
 body {
-	background: #222;
-	margin: 0rem;
-	min-height: 100vh;
-	font-family: Futura, sans-serif;
+  background: #222;
+  margin: 0rem;
+  min-height: 100vh;
+  font-family: roboto, sans-serif;
 }
 #canvas, #text {
-	position: absolute;
-	display: block;
-	top: 0;
-	left: 0;
-	z-index: -1;
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 #text {
   min-height: 100vh;
@@ -24,24 +24,29 @@ body {
   text-align: center;
 }
 #text h1 {
-	opacity: 0.9
+  opacity: 0.9;
 }
+
 
 h1 {
   font-size: 56px;
   font-family: 'Roboto', sans-serif;
   text-align: center;
+  text-transform: uppercase;
+  color: white;
 }
 
 h2 {
   font-size: 36px;
   font-family: 'Roboto Slab', serif;
   text-align: center;
+  text-transform: uppercase;
+  color: white;
 }
 
 h3 {
   font-size: 72px;
   font-family: 'Roboto Mono',monospace;
   text-align: center;
-  color: 'DarkGray';
+  color: white;
 }

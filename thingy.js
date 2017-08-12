@@ -1,7 +1,7 @@
 let resizeReset = function() {
 	w = canvasBody.width = window.innerWidth;
 	h = canvasBody.height = window.innerHeight;
-}
+};
 
 const opts = {
 	particleColor: "rgb(200,200,200)",
@@ -43,7 +43,7 @@ let linkPoints = function(point1, hubs){
 			drawArea.stroke();
 		}
 	}
-}
+};
 
 Particle = function(xPos, yPos){
 	this.x = Math.random() * w;
