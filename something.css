@@ -44,6 +44,7 @@ body{
     display: none;
   }
 }
+
 h1 {
   font-size: 56px;
   font-family: 'Roboto', sans-serif;
@@ -54,7 +55,7 @@ h1 {
 
  h2 {
   font-size: 36px;
-  font-family: 'Roboto', serif;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
   text-transform: uppercase;
   color: white;
@@ -66,3 +67,18 @@ h1 {
   text-align: center;
   color: white;
  }
+
+ p {
+  font-family: 'Roboto Light', sans-serif;
+  color: white;
+ }
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+footer .row{
+  margin-top: 1em;
+}
