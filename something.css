@@ -44,6 +44,14 @@ body{
     display: none;
   }
 }
+
+div {
+  height: 90px;
+  line-height: 90px;
+  text-align: center;
+
+}
+
 h1 {
   font-size: 56px;
   font-family: 'Roboto', sans-serif;
