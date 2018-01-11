@@ -1,4 +1,4 @@
-body{
+body {
   margin: 0;
   background: #000;
 }
@@ -66,6 +66,12 @@ h1 {
   font-family: 'Roboto Mono',monospace;
   text-align: center;
   color: white;
+ }
+ a {
+   font-size: 72px;
+   font-family: 'Roboto', sans-serif;
+   text-align: center;
+   color: white;
  }
 
  p {
