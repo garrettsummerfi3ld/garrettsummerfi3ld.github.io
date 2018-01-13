@@ -61,6 +61,7 @@ h1 {
   color: white;
  }
 
+<<<<<<< HEAD
  h3 {
   font-size: 72px;
   font-family: 'Roboto Mono',monospace;
@@ -74,6 +75,8 @@ h1 {
    color: white;
  }
 
+=======
+>>>>>>> 5f373acb170fc4a37e2a7f6eef8686b04229b7a6
  p {
   font-family: 'Roboto Light', sans-serif;
   color: white;
@@ -109,4 +112,9 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+}
+a {
+    font-size: 36px;
+    font-family: 'Roboto Slab', serif;
+    color: white;
 }
