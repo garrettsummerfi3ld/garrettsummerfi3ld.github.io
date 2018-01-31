@@ -4,6 +4,10 @@
     padding: 70px 0;
     text-align: center;
 }
+.mono {
+    font-family: 'Roboto Mono', monospace;
+
+}
 body {
   margin: 0;
   background-image: url(video/static.gif);
@@ -17,7 +21,6 @@ body {
     min-height: 100%;
 }
 h1 {
-    font-family: 'Roboto Mono', monospace;
     font-size: 112px;
     color: #ffffff;
 }
