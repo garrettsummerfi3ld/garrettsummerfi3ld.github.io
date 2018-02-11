@@ -1,16 +1,16 @@
 <!doctype html>
-<!--
-todo:
-- add more detais
-- cleanup
-- fix some broken garbage
-- add a will to live
--->
+
 <html lang="en">
 
 <head>
-    <title>Garrett Summerfield // Gamer, Procrastinator</title>
+    <title>about - garrett summerfield</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Garrett Summerfield">
     <link rel="stylesheet" type="text/css" href="something.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono" rel="stylesheet">
     <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
@@ -27,24 +27,56 @@ todo:
     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
     <link rel="manifest" href="/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">      <h2>Comming soon...</h2>
+    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
-    <div class="fullscreen-bg">
-      <video autoplay muted loop id="bgvideo">
-        <source src="video/static.mp4" type="video/mp4">
-		<source src="video/static.webm" type="video/webm">
-		<source src="video/static.ogv" type="video/ogg">
-	</video>
+    <!-- Uses a transparent header that draws on top of the layout's background -->
+    <style>
+        .demo-layout-transparent {
+            background: url('../assets/demos/transparent.jpg') center / cover;
+        }
+
+        .demo-layout-transparent .mdl-layout__header,
+        .demo-layout-transparent .mdl-layout__drawer-button {
+            /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+            color: white;
+        }
+    </style>
+    <div class="demo-layout-transparent mdl-layout mdl-js-layout">
+        <header class="mdl-layout__header mdl-layout__header--transparent">
+            <div class="mdl-layout__header-row">
+                <!-- Title -->
+                <span class="mdl-layout-title">Garrett Summerfield</span>
+                <!-- Add spacer, to align navigation to the right -->
+                <div class="mdl-layout-spacer"></div>
+            </div>
+        </header>
+        <div class="mdl-layout__drawer">
+            <span class="mdl-layout-title">Navigation</span>
+            <nav class="mdl-navigation">
+                <a class="mdl-navigation__link" href="index">Home</a>
+                <a class="mdl-navigation__link" href="wait">YouTube</a>
+                <a class="mdl-navigation__link" href="https://twitter.com/_gsummerfield_">Twitter</a>
+                <a class="mdl-navigation__link" href="https://www.instagram.com/_g.summerfield_/">Instagram</a>
+                <a class="mdl-navigation__link" href="about">About</a>
+            </nav>
+        </div>
+        <main class="mdl-layout__content">
+            <div class="fullscreen-bg">
+            </div>
+            <div class="center">
+                <h1 class="mono">a b o u t</h1>
+                <h1 class="mono-small">gamer, programmer, and procrastinator</h1>
+                <h1 class="mono" style="font-size: 64px;">p r o j e c t s</h1>
+                <h1 class="mono-small">solace</h1>
+            </div>
+        </main>
     </div>
-    <div align="center">
-	<h1>About</h1>
-	<h2>Gamer and a procrasinator, love working with programming and computers in general</h2>
-	<h2>Currently involved with Oakville Robotics and Oakville Technology Students Association</h2>
-	<!--More to come soon-->
     </div>
+
 </body>
 
 </html>
