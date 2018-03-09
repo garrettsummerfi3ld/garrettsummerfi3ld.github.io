@@ -25,3 +25,9 @@ body {
     min-width: 100%;
     min-height: 100%;
 }
+a {
+    color: white;
+}
+a:visited {
+    color: white;
+}
