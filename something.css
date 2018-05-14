@@ -4,6 +4,23 @@
     padding: 70px 0;
     text-align: center;
 }
+
+.italics {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-size: 96px;
+}
+
+.italics-small {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-size: 58px;
+}
+
+.italics-fallback {
+    font-style: italic;
+}
+
 .mono {
     font-family: 'Roboto Mono', monospace;
     font-size: 96px;
