@@ -8,13 +8,11 @@
 .italics {
     font-family: 'Roboto';
     font-style: italic;
-    font-size: 96px;
 }
 
 .italics-small {
     font-family: 'Roboto';
     font-style: italic;
-    font-size: 58px;
 }
 
 .italics-fallback {
@@ -23,11 +21,9 @@
 
 .mono {
     font-family: 'Roboto Mono', monospace;
-    font-size: 96px;
 }
 .mono-small {
     font-family: 'Roboto Mono', monospace;
-    font-size: 58px;
 }
 body {
   margin: 0;
