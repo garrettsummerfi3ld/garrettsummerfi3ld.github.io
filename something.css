@@ -10,11 +10,6 @@
     font-style: italic;
 }
 
-.italics-small {
-    font-family: 'Roboto';
-    font-style: italic;
-}
-
 .italics-fallback {
     font-style: italic;
 }
