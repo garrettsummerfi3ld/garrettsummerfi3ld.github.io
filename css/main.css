@@ -1,0 +1,14 @@
+.titleMain {
+    font-family: "Roboto-Regular";
+    letter-spacing: 50px;
+}
+
+.titleContent {
+    font-family: "Roboto-Light";
+    letter-spacing: 35px;
+}
+
+.titleMono {
+    font-family: "RobotoMono-Regular";
+    letter-spacing: 35px;
+}
