@@ -13,7 +13,6 @@ body {
     grid-template-columns: 1fr 4fr 1fr;
     grid-template-areas: "header header header" "main main main" "footer footer footer";
     margin: 0;
-    font-
 }
 
 /* Resets bolding on the heading elements. */
@@ -24,7 +23,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-weight: normal;
+    font-weight: 400;
 }
 
 /* Disable colored and underlined anchors by default unless intentionally underlined. */
